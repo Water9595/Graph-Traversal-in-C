@@ -8,8 +8,8 @@ The project allows users to input the number of vertices, edges, and the type of
 - Support for both **directed** and **undirected** graphs.
 - Adding edges to the graph.
 - Graph traversal using:
-  - Depth-First Search (DFS) (recursive)
-  - Breadth-First Search (BFS) (using a queue)
+  - **Depth-First Search (DFS)** (recursive)
+  - **Breadth-First Search (BFS)** (using a queue)
 - Simple user interaction through the command line.
 
 ## Getting Started
