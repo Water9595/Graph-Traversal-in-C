@@ -1,11 +1,11 @@
 # Graph Traversal in C
 This project implements a graph data structure using adjacency lists in C, 
-and demonstrates two fundamental graph traversal algorithms: Depth-First Search (DFS) and Breadth-First Search (BFS). 
+and demonstrates two fundamental graph traversal algorithms: **Depth-First Search (DFS)** and **Breadth-First Search (BFS)**. 
 The project allows users to input the number of vertices, edges, and the type of graph (directed or undirected), and perform DFS and BFS starting from vertex 0.
 
 ## Features
 - Graph creation using adjacency lists.
-- Support for both directed and undirected graphs.
+- Support for both **directed** and **undirected** graphs.
 - Adding edges to the graph.
 - Graph traversal using:
   - Depth-First Search (DFS) (recursive)
