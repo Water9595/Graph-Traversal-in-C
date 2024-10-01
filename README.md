@@ -13,22 +13,25 @@ The project allows users to input the number of vertices, edges, and the type of
 - Simple user interaction through the command line.
 
 ## Getting Started
-Prerequisites
-A C compiler (e.g., GCC) installed on your machine.
-Compilation
+### Prerequisites
+- A C compiler (e.g., GCC) installed on your machine.
+
+### Compilation
 To compile the program, run the following command in your terminal:
 
 ## Compilation
 To compile the program, run the following command in your terminal:
-gcc -o graph_traversal main.c graph.c
+`gcc -o graph_traversal main.c graph.c`
 
 ## Running the Program
 After compilation, run the program using the following command:
-./graph_traversal
+`./graph_traversal`
+
 The program will prompt you for the number of vertices and the type of graph (directed or undirected). 
 Then, you will input the edges of the graph.
 
 ## Example Input
+```
 Enter the number of vertices in the graph >> 4
 
 ## Main Menu
@@ -47,9 +50,11 @@ Enter the number of destinations of vertex 2 >> 1
 Vertex 2: destination 1 >> 3
 
 Enter the number of destinations of vertex 3 >> 0
+```
 
 
 ## Example Output
+```
 Adjacency list of vertex 0
  head -> 1 -> 2
 
@@ -63,13 +68,12 @@ Adjacency list of vertex 3
  head 
 
 DFS traversal: 0 1 2 3 
-
 BFS traversal: 0 1 2 3
-
+```
 
 ## Project Structure
 The project is organized into the following files:
 
-1. main.c: Contains the main function for handling user interaction and graph traversal.
-2. graph.c: Implements the graph creation, edge addition, and traversal functions (DFS and BFS).
-3. graph.h: Header file that contains the structure definitions and function declarations.
+1. `main.c`: Contains the main function for handling user interaction and graph traversal.
+2. `graph.c`: Implements the graph creation, edge addition, and traversal functions (DFS and BFS).
+3. `graph.h`: Header file that contains the structure definitions and function declarations.
