@@ -18,9 +18,6 @@ The project allows users to input the number of vertices, edges, and the type of
 
 ### Compilation
 To compile the program, run the following command in your terminal:
-
-## Compilation
-To compile the program, run the following command in your terminal:
 `gcc -o graph_traversal main.c graph.c`
 
 ## Running the Program
