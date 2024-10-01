@@ -3,7 +3,7 @@ This project implements a graph data structure using adjacency lists in C,
 and demonstrates two fundamental graph traversal algorithms: Depth-First Search (DFS) and Breadth-First Search (BFS). 
 The project allows users to input the number of vertices, edges, and the type of graph (directed or undirected), and perform DFS and BFS starting from vertex 0.
 
-**Features**
+## Features
 Graph creation using adjacency lists.
 Support for both directed and undirected graphs.
 Adding edges to the graph.
@@ -12,26 +12,26 @@ Depth-First Search (DFS) (recursive)
 Breadth-First Search (BFS) (using a queue)
 Simple user interaction through the command line.
 
-**Getting Started**
+## Getting Started
 Prerequisites
 A C compiler (e.g., GCC) installed on your machine.
 Compilation
 To compile the program, run the following command in your terminal:
 
-**Compilation**
+## Compilation
 To compile the program, run the following command in your terminal:
 gcc -o graph_traversal main.c graph.c
 
-**Running the Program**
+## Running the Program
 After compilation, run the program using the following command:
 ./graph_traversal
 The program will prompt you for the number of vertices and the type of graph (directed or undirected). 
 Then, you will input the edges of the graph.
 
-**Example Input**
+## Example Input
 Enter the number of vertices in the graph >> 4
 
-** Main Menu **
+## Main Menu
 1. Directed graph
 2. Undirected graph
 Select a graph type (1~2) >> 1
@@ -49,7 +49,7 @@ Vertex 2: destination 1 >> 3
 Enter the number of destinations of vertex 3 >> 0
 
 
-**Example Output**
+## Example Output
 Adjacency list of vertex 0
  head -> 1 -> 2
 
@@ -67,7 +67,7 @@ DFS traversal: 0 1 2 3
 BFS traversal: 0 1 2 3
 
 
-**Project Structure**
+## Project Structure
 The project is organized into the following files:
 
 1. main.c: Contains the main function for handling user interaction and graph traversal.
