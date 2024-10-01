@@ -20,14 +20,14 @@ The project allows users to input the number of vertices, edges, and the type of
 To compile the program, run the following command in your terminal:
 `gcc -o graph_traversal main.c graph.c`
 
-## Running the Program
+### Running the Program
 After compilation, run the program using the following command:
 `./graph_traversal`
 
 The program will prompt you for the number of vertices and the type of graph (directed or undirected). 
 Then, you will input the edges of the graph.
 
-## Example Input
+### Example Input
 ```
 Enter the number of vertices in the graph >> 4
 
@@ -50,7 +50,7 @@ Enter the number of destinations of vertex 3 >> 0
 ```
 
 
-## Example Output
+### Example Output
 ```
 Adjacency list of vertex 0
  head -> 1 -> 2
